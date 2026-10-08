@@ -1,0 +1,4 @@
+streamlit==1.65.0
+pandas==2.2.3
+plotly==6.9.0
+filelock==3.32.7

@@ -793,4 +793,5 @@ def main():
             options=list(range(1, 13)),
             index=default_month - 1,
             format_func=lambda value: (
-                date(2000, value,
+                date(2000, value, 1).strftime("%B")
+)
